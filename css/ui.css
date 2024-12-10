@@ -479,7 +479,7 @@ div.menu-icon{
 	font-weight: 500;
 	font-family: "caustenregular";
 }
-#banner div.main h1{
+#banner div.main h2{
 	font-size: 78px;
 	margin-top: 22px;
 	max-width: 506px;
@@ -698,7 +698,7 @@ div.menu-icon{
     padding-left: 75px;
 }
 
-#centre section.wrapper ul li div.fassion1 span.fass h1 {
+#centre section.wrapper ul li div.fassion1 span.fass h2 {
     font-size: 34px;
     font-weight: 800;
     margin-bottom: 20px;
@@ -1248,79 +1248,7 @@ footer section.bottom div.item3 p{
 
 
 
-@media screen and (max-width: 320px){
-    header h1{
-        margin-left: 16px;
-    }
 
-    #banner .middle{
-        position: absolute;
-        margin-left: 592px;
-    }
-    #banner .right{
-        margin-left: 1226px;
-    }
-
-    #deals .wrapper{
-        width: 250px;
-    }
-
-    #new_arrival .wrapper{
-        width: 250px;
-    }
-
-    #centre .wrapper{
-        width: 250px;
-    }
-
-    #catogories_for_men .wrapper{
-        margin-left: 38px;
-    }
-
-    #catogories_for_women .wrapper{
-        margin-left: 38px;
-    }
-
-    #brand .wrapper{
-        width: 250px;
-    }
-
-    #lime .wrapper{
-        margin-left: 38px;
-    }
-
-    #feedback .wrapper{
-        margin-left: 38px;
-    }
-    #feedback section.wrapper .review .rev1 div div.txts h3{
-        font-size: 27px;
-        margin-bottom: 12px;
-    }
-    #feedback section.wrapper .review .rev1 div div.txts p {
-        font-size: 15.8px;
-        line-height: 1.1em;
-    }
-    #feedback section.wrapper .review .rev2 div div.txts h3{
-        font-size: 27px;
-        margin-bottom: 12px;
-    }
-    #feedback section.wrapper .review .rev2 div div.txts p {
-        font-size: 15.8px;
-        line-height: 1.1em;
-    }
-    #feedback section.wrapper .review .rev3 div div.txts h3{
-        font-size: 27px;
-        margin-bottom: 12px;
-    }
-    #feedback section.wrapper .review .rev3 div div.txts p {
-        font-size: 15.8px;
-        line-height: 1.1em;
-    }
-
-    footer .wrapper{
-        margin-left: 38px;
-    }
-}
 
 @media screen and (max-width: 1400px) {
     header h1 {
@@ -1708,5 +1636,82 @@ footer section.bottom div.item3 p{
     }
 }
 
+@media screen and (max-width: 320px){
+    header h1{
+        margin-left: 16px;
+    }
 
+    #banner .middle{
+        position: absolute;
+        margin-left: 592px;
+    }
+    #banner .right{
+        margin-left: 1226px;
+    }
+    /* #banner div.right img {
+        position: relative;
+        top: 19px;
+        left: 200px;
+    } */
+
+    #deals .wrapper{
+        width: 250px;
+    }
+
+    #new_arrival .wrapper{
+        width: 250px;
+    }
+
+    #centre .wrapper{
+        width: 250px;
+    }
+
+    #catogories_for_men .wrapper{
+        margin-left: 38px;
+    }
+
+    #catogories_for_women .wrapper{
+        margin-left: 38px;
+    }
+
+    #brand .wrapper{
+        width: 250px;
+    }
+
+    #lime .wrapper{
+        margin-left: 38px;
+    }
+
+    #feedback .wrapper{
+        margin-left: 38px;
+    }
+    #feedback section.wrapper .review .rev1 div div.txts h3{
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+    #feedback section.wrapper .review .rev1 div div.txts p {
+        font-size: 15.8px;
+        line-height: 1.1em;
+    }
+    #feedback section.wrapper .review .rev2 div div.txts h3{
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+    #feedback section.wrapper .review .rev2 div div.txts p {
+        font-size: 15.8px;
+        line-height: 1.1em;
+    }
+    #feedback section.wrapper .review .rev3 div div.txts h3{
+        font-size: 27px;
+        margin-bottom: 12px;
+    }
+    #feedback section.wrapper .review .rev3 div div.txts p {
+        font-size: 15.8px;
+        line-height: 1.1em;
+    }
+
+    footer .wrapper{
+        margin-left: 38px;
+    }
+}
 
